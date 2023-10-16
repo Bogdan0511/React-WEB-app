@@ -1,0 +1,51 @@
+body {
+  background-color: #0f6ff9;
+  margin: 0;
+}
+
+h1 {
+  color: #f81404;
+  font-size: 60px;
+  text-align: center;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.game-list-container {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.forms-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 100px;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .forms-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
